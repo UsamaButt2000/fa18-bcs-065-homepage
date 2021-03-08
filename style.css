@@ -1,0 +1,83 @@
+.wrapper {
+    background: url(background.jpg) no-repeat;
+    background-size: cover;
+    height: 110vh;
+}
+
+.myFooter {
+    position: fixed;
+    height: 80px;
+    width: 100%;
+    top: 92%;
+    right: 0%;
+    left: 1%;
+    background: lightblue;
+}
+
+.navbar {
+    position: fixed;
+    height: 80px;
+    width: 100%;
+    top: 0;
+    background: lightblue;
+}
+
+.navbar .myLogo {
+    width: 50px;
+    padding: 15px;
+}
+
+.navbar ul {
+    float: right;
+    margin-right: 15px;
+}
+
+.navbar ul li {
+    margin: 0 10px;
+    display: inline-block;
+    line-height: 65px;
+}
+
+.navbar ul li a {
+    font-size: 25px;
+    font-family: 'Arial';
+    color: black;
+    padding: 10px 15px;
+}
+
+.footerText {
+    font-size: 18px;
+    font-family: 'Arial';
+    color: black;
+    padding: 10px;
+}
+
+.wrapper .middle {
+    position: absolute;
+    left: 13%;
+    top: 30%;
+    font-family: Arial;
+}
+
+.middle h1 {
+    color: black;
+    font-size: 70px;
+    width: 1000px;
+    font-weight: bold;
+    text-align: center;
+    border-style: solid;
+}
+
+.middle .myBtns {
+    margin: 100px 350px;
+}
+
+.myBtns button {
+    height: 70px;
+    width: 120px;
+    margin: 10px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    background: lightblue;
+}
